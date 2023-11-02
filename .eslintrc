@@ -1,0 +1,16 @@
+{
+  "extends": ["taro/react"],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-unused-vars":["error", {"varsIgnorePattern": "Taro|wx"}],
+    "no-mixed-spaces-and-tabs": 2,
+    "no-debugger": 2,
+    "space-infix-ops": 2,
+    "space-before-blocks":2,
+    "indent":["error", 2, {"SwitchCase": 1}],
+    "jsx-quotes":["error", "prefer-double"],
+    "import/first": 0
+  }
+}
