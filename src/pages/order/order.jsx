@@ -1,15 +1,15 @@
 import { View, Text } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
-import "./index.scss";
+import "./order.scss";
 
-export default function Index() {
+export default function Order() {
   useLoad(() => {
     console.log("Page loaded.");
   });
 
   return (
     <View className="index">
-      <Text>首页</Text>
+      <Text>我的订单</Text>
     </View>
   );
 }
